@@ -1,4 +1,4 @@
-# ChatGPT-Nothing-Went-Wrong
+# ChatGPT Nothing Went Wrong
 Custom JS script for Tampermonkey\Greasemonkey extension that solves the problem of "Oops, an error occurred!" message in some cases.
 
 After the ChatGPT design update, some users (like myself) experienced the problem of not being able to open or create a chat tab on Open AI's website and receiving an error message that generally says nothing about the cause of the problem.
