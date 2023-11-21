@@ -19,14 +19,14 @@ unsafeWindow.fetch = function (resource, init) {
             const isStream = contentType && (contentType.includes('text/event-stream') || contentType.includes('multipart/x-mixed-replace') || contentType.includes('application/octet-stream'));
 
             if (isStream) {
-                return response; // Вернуть исходный ответ для потоковых данных
+                return response; 
             }
 
-            let clonedResponse = response.clone(); // Создание клонированной копии ответа
+            let clonedResponse = response.clone(); 
             const body = await clonedResponse.text();
 
             if (body === null || body === undefined) {
-                return response; // Вернуть исходный ответ, если тело null или undefined
+                return response; 
             }
 
             if (resource === 'https://chat.openai.com/backend-api/compliance') {
