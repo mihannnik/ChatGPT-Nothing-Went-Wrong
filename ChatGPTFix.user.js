@@ -5,6 +5,8 @@
 // @description  Fix ChatGPT issue
 // @author       Mikhail Grekov
 // @match        https://chat.openai.com/*
+// @downloadURL  https://github.com/mihannnik/ChatGPT-Nothing-Went-Wrong/raw/main/ChatGPTFix.user.js
+// @updateURL    https://github.com/mihannnik/ChatGPT-Nothing-Went-Wrong/raw/main/ChatGPTFix.user.js
 // @grant        unsafeWindow
 // ==/UserScript==
 
